@@ -1,0 +1,12 @@
+# fortinet bootstrap — sets admin/admin and enables SSH
+config system admin
+edit admin
+set password admin
+end
+config system interface
+edit port1
+set allowaccess ping ssh http https
+end
+config system global
+set admin-ssh-port 22
+end

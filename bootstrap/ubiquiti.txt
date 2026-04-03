@@ -1,0 +1,7 @@
+# ubiquiti bootstrap — sets admin/admin and enables SSH
+configure
+set system login user admin authentication plaintext-password admin
+set service ssh port 22
+commit
+save
+exit

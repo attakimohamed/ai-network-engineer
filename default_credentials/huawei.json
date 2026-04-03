@@ -1,0 +1,5 @@
+[
+  {"user":"admin","pass":"admin"},
+  {"user":"admin","pass":"telecomadmin"},
+  {"user":"telecomadmin","pass":"admintelecom"}
+]

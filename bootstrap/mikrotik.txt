@@ -1,0 +1,4 @@
+# mikrotik bootstrap — sets admin/admin and enables SSH
+/user set 0 password=admin
+/ip service enable ssh
+/ip service set ssh port=22

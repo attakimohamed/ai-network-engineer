@@ -1,0 +1,16 @@
+# huawei bootstrap — sets admin/admin and enables SSH
+system-view
+aaa
+local-user admin password irreversible-cipher admin
+local-user admin service-type ssh
+local-user admin privilege level 15
+quit
+stelnet server enable
+ssh user admin
+ssh user admin authentication-type password
+user-interface vty 0 4
+authentication-mode aaa
+protocol inbound ssh
+quit
+commit
+quit

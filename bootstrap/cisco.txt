@@ -1,0 +1,12 @@
+# cisco bootstrap — sets admin/admin and enables SSH
+enable
+configure terminal
+username admin privilege 15 password admin
+ip ssh version 2
+crypto key generate rsa modulus 1024
+line vty 0 4
+login local
+transport input ssh
+exit
+exit
+write memory

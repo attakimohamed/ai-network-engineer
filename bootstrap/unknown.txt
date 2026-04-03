@@ -1,0 +1,6 @@
+# unknown vendor bootstrap — generic attempt
+enable
+configure terminal
+username admin password admin
+exit
+write memory

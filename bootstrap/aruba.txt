@@ -1,0 +1,10 @@
+# aruba bootstrap — sets admin/admin and enables SSH
+enable
+configure terminal
+username admin password plaintext admin
+ip ssh
+line vty
+login local
+exit
+exit
+write memory
