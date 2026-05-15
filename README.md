@@ -219,4 +219,3 @@ nmap (system)
 
 This project is the final-year project (Stage PFE) for a BTS Systèmes et Réseaux Informatiques program. It was designed and built from scratch to solve a real provisioning problem: bringing up factory-reset network devices of unknown vendor automatically, with zero manual SSH setup.
 
-The physical lab uses a FortiGate 80E, HP 1910-8G-PoE+, and Aruba 610 AP alongside simulated devices in VMware.
